@@ -1,22 +1,23 @@
-4.2.0 Release Notes
-===================
+4.2.1 Release Notes
+====================
 
-> February 5, 2016
+> February 12, 2016
 
-### Banner Preview Card
+### Course Navigation - Mark as Complete
 
-* Users can now click anywhere on the Banner Preview card to access the course element.
-* Improves the banner element image sizes in IE and Firefox
+*Mark as complete check color updated to green so that it is visually easier to distinguish check from uncheck. 
 
-### Course Elements
+### Date Pill - Datepicker bug correction
 
-* There are more icons to choose from when authoring course elements
+*Correction to bug which was causing the datepicker to not perform optimally. 
+*The datepicker is now presented as expected.
+ 
+### Course Components - Video Component
 
-### Help Desk
+*The video component now allows for web_vtt file extensions for closed captioning files.
+ 
+### Course Components - SCORM Component bug correction
 
-* Need help? You can now submit a request for help or give us your thoughts by clicking the Help icon in the right-side toolbox
+*Correction to a bug which was causing the SCORM results display to extend beyond the constraints of the screen when questions were longer than the screen width.
 
-### Course Components - Video Player
-
-* We simplified adding labels to new videos, to keep the labels consistent:
-    * HD (High-Definition), SD (Standard-Definition), and LD (Low-Definition)
+*The SCORM results and questions now restrict to the width of the screen.
