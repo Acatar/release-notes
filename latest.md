@@ -1,23 +1,52 @@
-4.2.1 Release Notes
+4.3.0 Release Notes
 ====================
 
-> February 12, 2016
+>February 26, 2016
 
-### Course Navigation - Mark as Complete
+###Universal Design - Keyboard Navigation
 
-*Mark as complete check color updated to green so that it is visually easier to distinguish check from uncheck. 
+* Allows users to navigate the learning environment using keyboard commands.
 
-### Date Pill - Datepicker bug correction
+###Enrollment - Email Notification Updates
 
-*Correction to bug which was causing the datepicker to not perform optimally. 
-*The datepicker is now presented as expected.
- 
-### Course Components - Video Component
+* Users will now receive an email to set up their password and another email to access their course.
 
-*The video component now allows for web_vtt file extensions for closed captioning files.
- 
-### Course Components - SCORM Component bug correction
+* Users will receive the email to access their course each time they sign up for an additional course.
 
-*Correction to a bug which was causing the SCORM results display to extend beyond the constraints of the screen when questions were longer than the screen width.
+###Navigation - Profile Icon Removed
 
-*The SCORM results and questions now restrict to the width of the screen.
+* The profile icon from the top right corner has been removed to simplify profile access.
+
+* Users can still access their profiles by clicking their names in the bottom left corner.
+
+###Coursework Preview - Banner Cards Updates
+
+* Banner cards now accept Markdown syntax
+
+###Aggregate SCORM Report
+
+* Allows students to submit results when finished with a self paced course.
+
+* Allows faculty to review students aggregated SCORM results via an email link.
+
+###Profile - Avatars
+
+* Allows users to add an avatar to their profile.
+
+* Allows users to edit their avatars.
+
+###Course Components - Text Update
+
+* External links within the text component will now open in a new window.
+
+* Allows uers to stay within the course.
+
+###Course Navigation - Empty Course Text Update
+
+* If a course or element has not yet been designed, but the student is able to see it, a student friendly message is displayed.
+
+###Drag & Drop Course Element Creation Updates
+
+* Improved course authoring by providing an experience similar to wysiwyg.
+
+* Default component sizes have been updated.
