@@ -1,52 +1,28 @@
-4.3.0 Release Notes
+4.4.0 Release Notes
 ====================
 
->February 26, 2016
+>March 9, 2016
 
-###Universal Design - Keyboard Navigation
+###Course Creation - Component Grid, bug fix
 
-* Allows users to navigate the learning environment using keyboard commands.
+* Allows users to correctly size the Vimeo and YouTube components during authoring
+* Prevents the SCORM component from covering up other components
+* Corrected bug where scroll bars appear on non-Mac computers
 
-###Enrollment - Email Notification Updates
+###User Administration
 
-* Users will now receive an email to set up their password and another email to access their course.
+* User Administration page created
+* User Admin page includes search capabilities
+* Initial steps in full User Administration feature
+* Ability to add and remove users to courses
+* Ability to bulk add users to courses
 
-* Users will receive the email to access their course each time they sign up for an additional course.
+###Course Components - SCORM Component Update
 
-###Navigation - Profile Icon Removed
+* System will now check for SCORM registration before querying the data. 
 
-* The profile icon from the top right corner has been removed to simplify profile access.
+###Navigation - Course Archiving
 
-* Users can still access their profiles by clicking their names in the bottom left corner.
-
-###Coursework Preview - Banner Cards Updates
-
-* Banner cards now accept Markdown syntax
-
-###Aggregate SCORM Report
-
-* Allows students to submit results when finished with a self paced course.
-
-* Allows faculty to review students aggregated SCORM results via an email link.
-
-###Profile - Avatars
-
-* Allows users to add an avatar to their profile.
-
-* Allows users to edit their avatars.
-
-###Course Components - Text Update
-
-* External links within the text component will now open in a new window.
-
-* Allows uers to stay within the course.
-
-###Course Navigation - Empty Course Text Update
-
-* If a course or element has not yet been designed, but the student is able to see it, a student friendly message is displayed.
-
-###Drag & Drop Course Element Creation Updates
-
-* Improved course authoring by providing an experience similar to wysiwyg.
-
-* Default component sizes have been updated.
+* Users are able to archive courses
+* Archiving a course will remove the course from the Current filter on the dashboard for that user and places it into the Previous filter
+* Users are able to restore courses to their Current filter
