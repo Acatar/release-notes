@@ -1,3 +1,13 @@
+4.4.1 Release Notes
+====================
+
+>March 10, 2016
+
+###Course Components - SCORM Component Bug Fix
+
+* The SCORM component was not correctly opening in a new tab within the Safari, IE and Firefox web browsers.
+* This has been corrected. SCORM components currently set to open within the window will need to be updated to utilize this correction.
+
 4.4.0 Release Notes
 ====================
 
