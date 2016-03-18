@@ -1,38 +1,35 @@
-4.4.1 Release Notes
+4.4.3 Release Notes
 ====================
 
->March 10, 2016
+>March 18, 2016
 
-###Course Components - SCORM Component Bug Fix
+###Adding Users - Roster Bug Fix
 
-* The SCORM component was not correctly opening in a new tab within the Safari, IE and Firefox web browsers.
-* This has been corrected. SCORM components currently set to open within the window will need to be updated to utilize this correction.
+* When a user was added to via the roster in a course, an error would occur if their profile was selected before it was created.
+* Fix has been made so that the new user does not appear in the roster until the profile has been made.
 
-4.4.0 Release Notes
-====================
+###Video Component - Upload Timeout Update
 
->March 9, 2016
+* The timeout timeframe has been extended so that larger videos can be uploaded within the Video Component.
+* Max file size is 500 MB and timeout is now set to 30 minutes.
 
-###Course Creation - Component Grid, bug fix
+###Profile - Avatar Edit Update
 
-* Allows users to correctly size the Vimeo and YouTube components during authoring
-* Prevents the SCORM component from covering up other components
-* Corrected bug where scroll bars appear on non-Mac computers
+* The 'Edit' overlay on the Avatar within a profile will be static so that it is more obvious how to update it.
 
-###User Administration
+###Dashboard - Logo Update
 
-* User Administration page created
-* User Admin page includes search capabilities
-* Initial steps in full User Administration feature
-* Ability to add and remove users to courses
-* Ability to bulk add users to courses
+* The logo on the dashboard has been updated so that there is more padding between the logo and the boarders of the space.
 
-###Course Components - SCORM Component Update
+###Course Access - Safari Incognito Mode Bug Fix
 
-* System will now check for SCORM registration before querying the data. 
+* Users were unable to access the ALE when using the Safari in incognito mode, this has been corrected.
 
-###Navigation - Course Archiving
+###User Administration - Search Updates
 
-* Users are able to archive courses
-* Archiving a course will remove the course from the Current filter on the dashboard for that user and places it into the Previous filter
-* Users are able to restore courses to their Current filter
+* User administration search has been updated to include advanced search options
+
+###User Administration - Default Tenant Groups
+
+* Lays ground work for adding users to groups at a tenant level
+* These groups would then be added to each new course within that tenant automatically
