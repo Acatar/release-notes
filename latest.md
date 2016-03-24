@@ -1,35 +1,21 @@
-4.4.3 Release Notes
+4.4.4 Release Notes
 ====================
 
->March 18, 2016
+>March 24, 2016
 
-###Adding Users - Roster Bug Fix
+###ADA Tab Navigation - Chrome Updates
 
-* When a user was added to via the roster in a course, an error would occur if their profile was selected before it was created.
-* Fix has been made so that the new user does not appear in the roster until the profile has been made.
+* Tab navigation through the environment will now operate without a screen reader in Chrome.
 
-###Video Component - Upload Timeout Update
+###SCORM Report - Bug Fix
 
-* The timeout timeframe has been extended so that larger videos can be uploaded within the Video Component.
-* Max file size is 500 MB and timeout is now set to 30 minutes.
+* Individual student answers on the quiz reports were not displaying correctly.
+* Individual scores and answers are now displaying correctly on the SCORM reports.
 
-###Profile - Avatar Edit Update
+###Enrollment API - Server Side Email Validation Update
 
-* The 'Edit' overlay on the Avatar within a profile will be static so that it is more obvious how to update it.
-
-###Dashboard - Logo Update
-
-* The logo on the dashboard has been updated so that there is more padding between the logo and the boarders of the space.
-
-###Course Access - Safari Incognito Mode Bug Fix
-
-* Users were unable to access the ALE when using the Safari in incognito mode, this has been corrected.
-
-###User Administration - Search Updates
-
-* User administration search has been updated to include advanced search options
-
-###User Administration - Default Tenant Groups
-
-* Lays ground work for adding users to groups at a tenant level
-* These groups would then be added to each new course within that tenant automatically
+* Email validation updated to include the below requirements:
+ * Text before '@'
+ * Text after '@'
+ * At least one '.' after the '@'
+ * At least one '@' within the submission
