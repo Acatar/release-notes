@@ -1,21 +1,48 @@
-4.4.4 Release Notes
+4.5.0 Release Notes
 ====================
 
->March 24, 2016
+>March 29, 2016
 
-###ADA Tab Navigation - Chrome Updates
+###Course Component - Discussion
 
-* Tab navigation through the environment will now operate without a screen reader in Chrome.
+* Course creators can add discussion component to course elements
+* Discussion component can be configured to order replies top to bottom or bottom to top
+* Discussion component can be configured to allow or not allow replies
+* Component displays users avatar and date time of comment/reply
+* Active uesrs in the course are able to comment on the discussion component
+* Comments and replies are able to use Markdown syntax
 
-###SCORM Report - Bug Fix
+###Button Component - Updated for file download
 
-* Individual student answers on the quiz reports were not displaying correctly.
-* Individual scores and answers are now displaying correctly on the SCORM reports.
+* The button component has been updated for file download
+* Faculty are able to upload a file  for students to download
+* Students are able to then download the file by selecting the button
 
-###Enrollment API - Server Side Email Validation Update
+###Video Component - Updated
 
-* Email validation updated to include the below requirements:
- * Text before '@'
- * Text after '@'
- * At least one '.' after the '@'
- * At least one '@' within the submission
+* Default video type set
+* Carrot added to video type setting so that users are able to tell that there are options
+
+###Image Component - Updated
+
+* Images uploaded to the image component are now able to be cropped
+* Cropped images are forced to be the same shape as the component
+ * This will prevent cropping a rectangle to fit in a square component
+ 
+###Course Roster - Updated
+
+* When the roster is in gridview, the editing kabobs are available
+
+###User Administration - Updated
+
+* Search place holder text is more descriptive
+* Text added to notify users when no search results were found
+
+###Course Administration
+
+* Admin users are able to search and view the list of courses within a tenant
+
+###Markdown Component - Bug Fix
+
+* When creating a markdown component, the letters were being cut off and not displaying fully when in edit mode.
+* This has been updated and the whole letter can now be seen when adding text to the component.
