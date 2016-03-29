@@ -8,8 +8,8 @@
 * Course creators can add discussion component to course elements
 * Discussion component can be configured to order replies top to bottom or bottom to top
 * Discussion component can be configured to allow or not allow replies
-* Component displays users avatar and date time of comment/reply
-* Active uesrs in the course are able to comment on the discussion component
+* Component displays user's avatar and date time of comment/reply
+* Active users in the course are able to comment on the discussion component
 * Comments and replies are able to use Markdown syntax
 
 ###Button Component - Updated for file download
