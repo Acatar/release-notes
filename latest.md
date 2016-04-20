@@ -1,48 +1,42 @@
-4.5.0 Release Notes
+4.6.0 Release Notes
 ====================
 
->March 29, 2016
+>April 20, 2016
 
-###Course Component - Discussion
+###Software Guild Tenant - Branding
 
-* Course creators can add discussion component to course elements
-* Discussion component can be configured to order replies top to bottom or bottom to top
-* Discussion component can be configured to allow or not allow replies
-* Component displays user's avatar and date time of comment/reply
-* Active users in the course are able to comment on the discussion component
-* Comments and replies are able to use Markdown syntax
+* Software Guild branding was added to the tenant
 
-###Button Component - Updated for file download
+###Course Components - Annoucements
 
-* The button component has been updated for file download
-* Faculty are able to upload a file  for students to download
-* Students are able to then download the file by selecting the button
+* Faculty and TA's are able to send annoucements to courses
+* Announcements are also displayed within the course from the right hand tool bar
+* Announcements also send an email to the members of the course
 
-###Video Component - Updated
+###Course Creation - Bug Fix
 
-* Default video type set
-* Carrot added to video type setting so that users are able to tell that there are options
+* An error occurred when creating a course and selecting to not be faculty
+* This issue has been resolved and courses can now be created without the creator being part of the faculty group
 
-###Image Component - Updated
-
-* Images uploaded to the image component are now able to be cropped
-* Cropped images are forced to be the same shape as the component
- * This will prevent cropping a rectangle to fit in a square component
- 
 ###Course Roster - Updated
 
-* When the roster is in gridview, the editing kabobs are available
-
-###User Administration - Updated
+* Users that are hidden from student view on the roster will now have the (hidden) verbiage when viewing the roster in grid view.
+ 
+###Course Administration - Updated
 
 * Search place holder text is more descriptive
 * Text added to notify users when no search results were found
+* Faculty name has been added to the search results display
 
-###Course Administration
+###System Maintenance
 
-* Admin users are able to search and view the list of courses within a tenant
+* Allows for cleaner future coding
 
-###Markdown Component - Bug Fix
+###User Administration - Updated
 
-* When creating a markdown component, the letters were being cut off and not displaying fully when in edit mode.
-* This has been updated and the whole letter can now be seen when adding text to the component.
+* Users status (active, deactivated) is now displayed and able to be controlled from the User Administration panel
+
+###Course Navigation - Bug Fix
+
+* Courses with longer names were causing the left navigation to be displayed incorrectly.
+* This has been corrected and the left navigation respects the user card
