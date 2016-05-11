@@ -1,42 +1,36 @@
-4.6.0 Release Notes
+4.8.0 Release Notes
 ====================
 
->April 20, 2016
+>May 11, 2016
 
-###Software Guild Tenant - Branding
+###Course Component - Assignment URL Submission
 
-* Software Guild branding was added to the tenant
+* Students now have the ability to submit URLs to assignments.
+* Faculty can view list of submitted assignment URLs by students.
 
-###Course Components - Annoucements
+###Integration
 
-* Faculty and TA's are able to send annoucements to courses
-* Announcements are also displayed within the course from the right hand tool bar
-* Announcements also send an email to the members of the course
+* Backend work for Shibboleth integration completed.
+* Backend work for Adobe Connect integration completed.
 
-###Course Creation - Bug Fix
+###Course Creation - Updated
 
-* An error occurred when creating a course and selecting to not be faculty
-* This issue has been resolved and courses can now be created without the creator being part of the faculty group
+* Improves workflow for dragging new elements into a course.
 
-###Course Roster - Updated
+###Course Duplication
 
-* Users that are hidden from student view on the roster will now have the (hidden) verbiage when viewing the roster in grid view.
- 
+* Backend work for course duplication completed.
+
 ###Course Administration - Updated
 
-* Search place holder text is more descriptive
-* Text added to notify users when no search results were found
-* Faculty name has been added to the search results display
+* Faculty names are now displayed along with course names in course administration screen.
+
+###Mobile View
+
+* Made mobile header smaller.
+* Fixed page scrolling issue.
+* Close and Mark As Complete buttons on the element detail page no longer stick to the bottom of the screen.
 
 ###System Maintenance
 
-* Allows for cleaner future coding
-
-###User Administration - Updated
-
-* Users status (active, deactivated) is now displayed and able to be controlled from the User Administration panel
-
-###Course Navigation - Bug Fix
-
-* Courses with longer names were causing the left navigation to be displayed incorrectly.
-* This has been corrected and the left navigation respects the user card
+* Added health checks for all apps.
